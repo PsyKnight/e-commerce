@@ -3,3 +3,12 @@ spring:
     name: customer-service
   config:
     import: optional:configserver:http://localhost/8888
+  data:
+    mongodb:
+      username: root
+      password: root
+      additional-hosts: localhost
+      port: 27017
+      authentication-database: admin
+server:
+  port: 8090
