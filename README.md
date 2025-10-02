@@ -50,7 +50,6 @@ The project includes the following infrastructure components:
 
 2. Access the management interfaces:
    - PgAdmin: http://localhost:5050
-   - Mongo Express: http://localhost:8081
    - MailDev: http://localhost:1080
 
 3. Service Ports
